@@ -139,7 +139,7 @@ export default function NamrataLetter() {
                   {/* Vintage Gold Stamp in Corner */}
                   <div className="absolute top-6 right-6 hidden sm:flex flex-col items-center justify-center p-2.5 rounded-lg border-2 border-dashed border-amber-800/40 bg-amber-100/50 text-amber-900 text-xs font-serif text-center">
                     <Sparkles className="w-4 h-4 text-amber-700 mb-0.5" />
-                    <span className="text-[10px] tracking-wider uppercase font-bold">Diwali 2024</span>
+                    <span className="text-[10px] tracking-wider uppercase font-bold">{letter.date || 'Diwali 2026'}</span>
                     <span className="text-[9px] text-amber-800/70">From Himanshu</span>
                   </div>
 

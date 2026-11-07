@@ -57,7 +57,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed (v18 or higher recom
          url: "/images/namrata-diwali-1.jpg", // <-- your photo path here
          title: "Golden Glow",
          caption: "May your smile shine brighter than a thousand festive diyas ✨",
-         date: "Diwali 2024",
+         date: "Diwali 2026",
        },
        // customize other photos as desired...
      ]

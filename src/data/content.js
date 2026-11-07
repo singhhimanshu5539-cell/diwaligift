@@ -18,7 +18,7 @@ export const siteContent = {
 
   // 1. Welcome Screen
   welcome: {
-    badge: "✨ Shubh Deepavali 2024 ✨",
+    badge: "✨ Shubh Deepavali 2026 ✨",
     heading: "A Little Diwali Surprise For You...",
     subtitle: "For Namrata & Her Beautiful Family ❤️",
     description: "Crafted with love, warmth, and heartfelt festive blessings just for you.",
@@ -28,7 +28,7 @@ export const siteContent = {
 
   // 2. Grand Diwali Greeting
   greeting: {
-    tag: "FESTIVAL OF LIGHTS",
+    tag: "SHUBH DEEPAVALI 2026",
     title: "Happy Diwali, Namrata & Family! 🪔",
     quote: "May this auspicious festival illuminate your path with boundless joy, peace, and eternal harmony.",
     blessings: [
@@ -99,7 +99,7 @@ export const siteContent = {
     ],
     closing: "With lots of warmth and affection,",
     signature: "Himanshu ❤️",
-    date: "Diwali 2024",
+    date: "Diwali 2026",
   },
 
   // 5. Photo Gallery (Polaroid style with editable captions)
@@ -183,12 +183,12 @@ export const siteContent = {
 
   // 9. Final Greeting Screen
   final: {
-    tag: "SHUBH DEEPAVALI",
+    tag: "SHUBH DEEPAVALI 2026",
     title: "May Your World Forever Shine 🪔",
     mainMessage: "May your home always shine with happiness and your heart always stay full of joy.",
     closing: "With Warm Wishes & Lots of Love,",
     signature: "From Himanshu ❤️",
-    footerText: "Handcrafted with genuine affection for Namrata & Her Family • Diwali 2024",
+    footerText: "Handcrafted with genuine affection for Namrata & Her Family • Diwali 2026",
   },
 };
 
