@@ -119,3 +119,4 @@ export default function FinalGreeting({ onReplay }) {
     </footer>
   );
 }
+

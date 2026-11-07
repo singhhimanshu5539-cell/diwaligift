@@ -191,3 +191,4 @@ export const siteContent = {
     footerText: "Handcrafted with genuine affection for Namrata & Her Family • Diwali 2024",
   },
 };
+

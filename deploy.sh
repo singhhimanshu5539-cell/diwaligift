@@ -19,3 +19,4 @@ echo "✨ Build successful! Launching Vercel deployment..."
 npx vercel --prod
 
 echo "🎉 Deployment complete! Share the link with Namrata ❤️"
+

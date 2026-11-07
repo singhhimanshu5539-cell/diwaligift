@@ -106,3 +106,4 @@ export const triggerGiftSurpriseExplosion = () => {
 function randomInRange(min, max) {
   return Math.random() * (max - min) + min;
 }
+
