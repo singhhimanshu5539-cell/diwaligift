@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="sbg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#180b2b"/>
+      <stop offset="70%" stop-color="#0a0314"/>
+      <stop offset="100%" stop-color="#040108"/>
+    </radialGradient>
+    <radialGradient id="sparkleCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fef08a"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#sbg)" />
+
+  <!-- Background Stars -->
+  <g fill="#fef08a" opacity="0.6">
+    <circle cx="90" cy="80" r="1.5"/>
+    <circle cx="200" cy="120" r="1"/>
+    <circle cx="480" cy="90" r="2"/>
+    <circle cx="520" cy="220" r="1.5"/>
+    <circle cx="110" cy="480" r="2"/>
+    <circle cx="450" cy="500" r="1.5"/>
+  </g>
+
+  <!-- Sparkler 1 (Left/Center) -->
+  <g transform="translate(240, 260)">
+    <line x1="0" y1="0" x2="80" y2="240" stroke="#78716c" stroke-width="3" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="90" fill="url(#sparkleCore)" />
+    
+    <!-- Spark Rays -->
+    <g stroke="#fef08a" stroke-width="2" stroke-linecap="round" opacity="0.9">
+      <line x1="0" y1="0" x2="-80" y2="-70" />
+      <line x1="0" y1="0" x2="-40" y2="-110" />
+      <line x1="0" y1="0" x2="20" y2="-120" stroke="#fbbf24" stroke-width="3" />
+      <line x1="0" y1="0" x2="70" y2="-90" />
+      <line x1="0" y1="0" x2="105" y2="-30" stroke="#fbbf24" />
+      <line x1="0" y1="0" x2="110" y2="35" />
+      <line x1="0" y1="0" x2="60" y2="80" />
+      <line x1="0" y1="0" x2="-20" y2="100" stroke="#f59e0b" />
+      <line x1="0" y1="0" x2="-80" y2="70" />
+      <line x1="0" y1="0" x2="-110" y2="10" stroke="#fbbf24" stroke-width="2.5" />
+      <line x1="0" y1="0" x2="-100" y2="-40" />
+    </g>
+
+    <!-- Flying Spark Dots -->
+    <g fill="#ffffff">
+      <circle cx="-95" cy="-85" r="3"/>
+      <circle cx="85" cy="-105" r="2.5"/>
+      <circle cx="125" cy="-25" r="3"/>
+      <circle cx="-120" cy="20" r="2.5"/>
+      <circle cx="75" cy="95" r="3"/>
+      <circle cx="-30" cy="120" r="2"/>
+    </g>
+  </g>
+
+  <!-- Sparkler 2 (Right Side) -->
+  <g transform="translate(420, 200) scale(0.75)">
+    <line x1="0" y1="0" x2="50" y2="240" stroke="#78716c" stroke-width="3" />
+    <circle cx="0" cy="0" r="80" fill="url(#sparkleCore)" />
+    <g stroke="#fef08a" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="0" x2="-70" y2="-60" />
+      <line x1="0" y1="0" x2="10" y2="-90" stroke="#f43f5e" />
+      <line x1="0" y1="0" x2="80" y2="-50" />
+      <line x1="0" y1="0" x2="90" y2="20" stroke="#fbbf24" />
+      <line x1="0" y1="0" x2="50" y2="80" />
+      <line x1="0" y1="0" x2="-70" y2="50" />
+      <line x1="0" y1="0" x2="-90" y2="-10" />
+    </g>
+  </g>
+</svg>

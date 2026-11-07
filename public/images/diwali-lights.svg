@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2a0d45"/>
+      <stop offset="60%" stop-color="#140624"/>
+      <stop offset="100%" stop-color="#07020d"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="25%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="diyaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bg)" />
+
+  <!-- Floating Golden Bokeh Particles -->
+  <circle cx="120" cy="140" r="45" fill="#fbbf24" opacity="0.12" filter="url(#blur)" />
+  <circle cx="480" cy="180" r="60" fill="#f59e0b" opacity="0.1" filter="url(#blur)" />
+  <circle cx="300" cy="100" r="70" fill="#e11d48" opacity="0.1" filter="url(#blur)" />
+  <circle cx="180" cy="420" r="50" fill="#fbbf24" opacity="0.1" filter="url(#blur)" />
+  <circle cx="440" cy="450" r="55" fill="#f59e0b" opacity="0.12" filter="url(#blur)" />
+
+  <!-- Sparkling Stars -->
+  <g fill="#fff" opacity="0.7">
+    <circle cx="80" cy="90" r="1.5"/>
+    <circle cx="210" cy="70" r="2"/>
+    <circle cx="380" cy="80" r="1.5"/>
+    <circle cx="510" cy="120" r="2.5"/>
+    <circle cx="90" cy="270" r="2"/>
+    <circle cx="520" cy="310" r="1.5"/>
+    <circle cx="160" cy="520" r="2"/>
+    <circle cx="450" cy="540" r="2"/>
+  </g>
+
+  <!-- String of Fairy Lights at Top -->
+  <path d="M0 40 Q 150 110 300 40 T 600 40" fill="none" stroke="#b45309" stroke-width="2" opacity="0.5"/>
+  <circle cx="75" cy="70" r="7" fill="#fbbf24" filter="url(#blur)" />
+  <circle cx="75" cy="70" r="4" fill="#fef08a" />
+  <circle cx="150" cy="75" r="7" fill="#f43f5e" filter="url(#blur)" />
+  <circle cx="150" cy="75" r="4" fill="#fecdd3" />
+  <circle cx="225" cy="65" r="7" fill="#fbbf24" filter="url(#blur)" />
+  <circle cx="225" cy="65" r="4" fill="#fef08a" />
+  <circle cx="375" cy="70" r="7" fill="#38bdf8" filter="url(#blur)" />
+  <circle cx="375" cy="70" r="4" fill="#e0f2fe" />
+  <circle cx="450" cy="75" r="7" fill="#fbbf24" filter="url(#blur)" />
+  <circle cx="450" cy="75" r="4" fill="#fef08a" />
+  <circle cx="525" cy="65" r="7" fill="#f43f5e" filter="url(#blur)" />
+  <circle cx="525" cy="65" r="4" fill="#fecdd3" />
+
+  <!-- Center Glowing Diya -->
+  <g transform="translate(300, 350)">
+    <!-- Aura Glow -->
+    <circle cx="0" cy="-60" r="140" fill="url(#glow)" />
+    
+    <!-- Base Plate / Rangoli Shadow -->
+    <ellipse cx="0" cy="60" rx="140" ry="25" fill="#000" opacity="0.4" />
+    <ellipse cx="0" cy="55" rx="120" ry="20" fill="#92400e" opacity="0.7" />
+    
+    <!-- Clay Diya Base -->
+    <path d="M -110 20 Q 0 110 110 20 Q 0 45 -110 20 Z" fill="url(#diyaGrad)" stroke="#fef08a" stroke-width="2" />
+    <ellipse cx="0" cy="20" rx="110" ry="25" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" />
+    <ellipse cx="0" cy="22" rx="90" ry="18" fill="#451a03" />
+
+    <!-- Ornate Carvings on Diya Rim -->
+    <g fill="#fef08a">
+      <circle cx="-80" cy="25" r="3"/>
+      <circle cx="-50" cy="30" r="3.5"/>
+      <circle cx="-20" cy="32" r="3.5"/>
+      <circle cx="0" cy="33" r="4"/>
+      <circle cx="20" cy="32" r="3.5"/>
+      <circle cx="50" cy="30" r="3.5"/>
+      <circle cx="80" cy="25" r="3"/>
+    </g>
+
+    <!-- Diya Wick Tip -->
+    <path d="M -5 20 Q 0 -5 5 20 Z" fill="#1c1917" />
+
+    <!-- Flame Layers -->
+    <!-- Outer Glow -->
+    <path d="M 0 -105 C -35 -40 -30 15 0 20 C 30 15 35 -40 0 -105 Z" fill="#ea580c" opacity="0.75" />
+    <!-- Mid Golden Core -->
+    <path d="M 0 -95 C -25 -40 -20 12 0 16 C 20 12 25 -40 0 -95 Z" fill="#fbbf24" />
+    <!-- Inner White Hot Heart -->
+    <path d="M 0 -80 C -12 -35 -8 8 0 10 C 8 8 12 -35 0 -80 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Decorative Border -->
+  <rect x="25" y="25" width="550" height="550" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="10 5" opacity="0.4" rx="16" />
+</svg>
